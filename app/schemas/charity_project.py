@@ -50,8 +50,8 @@ class CharityProjectCreate(CharityProjectBase):
         if value is None:
             raise ValueError("Поле с требуемой суммой не может быть пустым!")
         if (
-            "invested_amount" in values and 
-            values["invested_amount"] is not None
+            "invested_amount" in values
+            and values["invested_amount"] is not None
         ):
             if value < values["invested_amount"]:
                 raise ValueError("Сумма не может быть меньше уже вложенной!")
