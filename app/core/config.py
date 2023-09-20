@@ -11,6 +11,7 @@ class Settings(BaseSettings):
     first_superuser_email: Optional[EmailStr] = None
     first_superuser_password: Optional[str] = None
     first_superuser_first_name: Optional[str] = None
+    min_password_len: int = 3
 
     class Config:
         env_file = ".env"
