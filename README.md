@@ -13,8 +13,7 @@
  - Alembic (инструмент для миграции базы данных)
  - Uvicorn (высокопроизводительный ASGI сервер)
 
- 
-Для запуска проекта:
+## Для запуска проекта:
 
 ```
 git clone git@github.com:SowaSova/cat_charity_fund.git
